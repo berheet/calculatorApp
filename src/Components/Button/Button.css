@@ -1,0 +1,17 @@
+.number-button{
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 1.4em;
+    background-color: #e0e1e6;
+    color: #293944;
+    flex: 1;
+    outline: 1px solid #888888;
+}
+
+.operator-button{
+    background-color: #EC9770;
+    color: #293944;
+}
