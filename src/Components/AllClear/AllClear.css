@@ -1,4 +1,4 @@
-.number-button{
+.clear-button{
     height: 4em;
     display: flex;
     justify-content: center;
@@ -9,10 +9,4 @@
     color: #293944;
     flex: 1;
     outline: 1px solid #888888;
-}
-
-.operator-button{
-    background-color: #F98D12;
-    color: white;
-    font-weight: 300
 }

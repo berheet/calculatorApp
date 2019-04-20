@@ -1,14 +1,10 @@
-import React, {Component} from 'react';
+import React from 'react';
+import './InputField.css';
 
-
-class Input extends Component{
-    render(){
-        return(
-            <div className="container">
-
-            </div>
-        )
-    }
+export const InputField = (props) => {
+    return(
+        <div className="input">
+            {props.numbers}
+        </div>
+    )
 }
-
-export default Keypad;
