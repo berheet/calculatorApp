@@ -12,6 +12,6 @@
 }
 
 /* Target span of input */
-span{
-    transform-origin: 100% 50%;
+.input span{
+    transform-origin: 100% 50% !important;
 }
