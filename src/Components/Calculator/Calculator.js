@@ -130,7 +130,7 @@ class Calculator extends Component {
 					<Button onClick={() => this.inputValue(7)}>7</Button>
 					<Button onClick={() => this.inputValue(8)}>8</Button>
 					<Button onClick={() => this.inputValue(9)}>9</Button>
-					<Button onClick={() => this.performOperation("X")} isOperator="true">X</Button>
+					<Button onClick={() => this.performOperation("x")} isOperator="true">X</Button>
 				</div>
 				<div className="row">
 					<Button onClick={() => this.inputValue(4)}>4</Button>
