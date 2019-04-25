@@ -1,10 +1,10 @@
 .number-button{
-    height: 4em;
+    height: 2.5em;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: lighter;
-    font-size: 1.4em;
+    font-weight: 230;
+    font-size: 2.3em;
     background-color: #e0e1e6;
     color: #293944;
     flex: 1;
@@ -14,5 +14,10 @@
 .operator-button{
     background-color: #F98D12;
     color: white;
-    font-weight: 300
+    font-weight: 300;
 }
+
+.number-button:active {
+    box-shadow: inset 0px 0px 80px 0px rgba(0, 0, 0, 0.25);
+  }
+  
