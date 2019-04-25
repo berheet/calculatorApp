@@ -5,7 +5,7 @@ import { AllClear } from '../AllClear/AllClear';
 
 const CalculatorOperations = {
 	"/": (prevValue, nextValue) => prevValue / nextValue,
-	"X": (prevValue, nextValue) => prevValue * nextValue,
+	"x": (prevValue, nextValue) => prevValue * nextValue,
 	"+": (prevValue, nextValue) => prevValue + nextValue,
 	"-": (prevValue, nextValue) => prevValue - nextValue,
 	"=": (prevValue, nextValue) => nextValue
