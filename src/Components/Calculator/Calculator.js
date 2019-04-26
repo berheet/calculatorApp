@@ -60,15 +60,26 @@ class Calculator extends Component {
 
 // Handling decimal
 	inputDot() {
-		const { input } = this.state;
-
-		if (!/\./.test(input)) {
-			this.setState({
-				input: input + ".",
-				waitingForOperand: false
-			});
-		}
+	const { input, waitingForOperand } = this.state;
+	if (!/\./.test(input) && waitingForOperand) {
+		this.setState({
+			input: "0.",
+			waitingForOperand: false
+		});
 	}
+	if (/\./.test(input) && waitingForOperand) {
+		this.setState({
+			input: "0.",
+			waitingForOperand: false
+		});
+	}
+	if (!/\./.test(input) && !waitingForOperand) {
+		this.setState({
+			input: input + ".",
+		});
+	}
+	
+}
 
 // Handling digits
 	inputValue(digit) {
